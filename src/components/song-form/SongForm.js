@@ -10,9 +10,6 @@ export default function SongForm(props) {
             <Input autoFocus ref={inputRef} type="text" placeholder="Title" value={props.song.title} onChange={props.onTitleChange} onPressEnter={console.log('focus')}/>
         </Col>
         <Col>
-            {props.children}
-        </Col>
-        <Col>
             <Input type="text" placeholder="Artist" value={props.song.artist} onChange={props.onArtistChange} onPressEnter={() => {
                 inputRef.current.focus({
                     cursor: 'all',

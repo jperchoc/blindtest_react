@@ -95,32 +95,29 @@ export default class BlindTest extends React.Component {
                     }))} 
                     onSelect={this.handleSelectedSongChange}>
                 </Sidebar>
-                <Layout style={{padding: '0 24px 24px' }}>
-                    <Content>
-                    {
-                        this.state.final ? 
-                        <Results songs={this.state.songs} />
-                        : 
-                        <Song song={this.state.selectedSong}>
-                            <SongChangeButton 
-                                onPrevious={this.handlePreviousClick}
-                                onNext={this.handleNextClick}
-                                previousDisabled={this.state.selectedSong.file === this.state.songs[0].file}
-                                isLast={this.state.selectedSong === this.state.songs[this.state.songs.length -1]}
-                            >
-                                <SongForm 
-                                    song={this.state.selectedSong} 
-                                    onTitleChange={this.handleTitleInput} 
-                                    onArtistChange={this.handleArtistInput}
-                                    onPressEnter={this.handleNextClick}
-                                />
-                            </SongChangeButton>
-                        </Song>
-                    } 
-                    </Content>
-                    
-                </Layout>
-            </Layout>
+                <Content>
+                {
+                    this.state.final ? 
+                    <Results songs={this.state.songs} />
+                    : 
+                    <Song song={this.state.selectedSong}>
+                        <SongChangeButton 
+                            onPrevious={this.handlePreviousClick}
+                            onNext={this.handleNextClick}
+                            previousDisabled={this.state.selectedSong.file === this.state.songs[0].file}
+                            isLast={this.state.selectedSong === this.state.songs[this.state.songs.length -1]}
+                        >
+                            <SongForm 
+                                song={this.state.selectedSong} 
+                                onTitleChange={this.handleTitleInput} 
+                                onArtistChange={this.handleArtistInput}
+                                onPressEnter={this.handleNextClick}
+                            />
+                        </SongChangeButton>
+                    </Song>
+                } 
+                </Content>
+        </Layout>
         );
     }
 }
