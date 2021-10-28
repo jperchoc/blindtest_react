@@ -86,8 +86,8 @@ export default class BlindTest extends React.Component {
     render() {
         return (
             this.state.selectedSong && 
-            <Layout>
-                <Sidebar 
+            <Layout style={{marginTop: 64}}>
+                <Sidebar  
                     selectedSong={this.state.selectedSong}
                     songs={this.state.songs.map((s, i) => ({
                         inactive: i > this.state.maxIndex,
@@ -95,7 +95,7 @@ export default class BlindTest extends React.Component {
                     }))} 
                     onSelect={this.handleSelectedSongChange}>
                 </Sidebar>
-                <Layout style={{ padding: '0 24px 24px' }}>
+                <Layout style={{padding: '0 24px 24px' }}>
                     <Content>
                     {
                         this.state.final ? 
