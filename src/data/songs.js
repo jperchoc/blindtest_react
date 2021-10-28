@@ -83,4 +83,21 @@ export const songs = [
     file: "21.mp3",
     img: "https://media4.giphy.com/media/vyTnNTrs3wqQ0UIvwE/giphy.gif",
   },
+  ,
+  {
+    file: "22.mp3",
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/2016-01_Ocarina_front.jpg/1024px-2016-01_Ocarina_front.jpg",
+  },
+  {
+    file: "23.mp3",
+    img: "https://t2.ldh.be/OPy823HrgPLzuvrgd8yY8iqbziA=/0x744:4478x2983/940x470/5b9009eccd70ef4bea8c6c6a.jpg",
+  },
+  {
+    file: "24.mp3",
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Coda_sign.svg/800px-Coda_sign.svg.png",
+  },
+  {
+    file: "25.mp3",
+    img: "https://www.journaldugeek.com/content/uploads/2019/08/mcg-wont-direct-the-he-man-movie-600x400-640x363.jpg",
+  }
 ];
