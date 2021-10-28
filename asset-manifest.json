@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/blindtest_react/static/css/main.85d5c127.chunk.css",
-    "main.js": "/blindtest_react/static/js/main.e0b8f706.chunk.js",
-    "main.js.map": "/blindtest_react/static/js/main.e0b8f706.chunk.js.map",
-    "runtime-main.js": "/blindtest_react/static/js/runtime-main.445132e4.js",
-    "runtime-main.js.map": "/blindtest_react/static/js/runtime-main.445132e4.js.map",
+    "main.css": "/blindtest_react/static/css/main.632f1e8d.chunk.css",
+    "main.js": "/blindtest_react/static/js/main.8b08100a.chunk.js",
+    "main.js.map": "/blindtest_react/static/js/main.8b08100a.chunk.js.map",
+    "runtime-main.js": "/blindtest_react/static/js/runtime-main.e93bbc4e.js",
+    "runtime-main.js.map": "/blindtest_react/static/js/runtime-main.e93bbc4e.js.map",
     "static/css/2.a95be28f.chunk.css": "/blindtest_react/static/css/2.a95be28f.chunk.css",
-    "static/js/2.e3255232.chunk.js": "/blindtest_react/static/js/2.e3255232.chunk.js",
-    "static/js/2.e3255232.chunk.js.map": "/blindtest_react/static/js/2.e3255232.chunk.js.map",
-    "static/js/3.1414138f.chunk.js": "/blindtest_react/static/js/3.1414138f.chunk.js",
-    "static/js/3.1414138f.chunk.js.map": "/blindtest_react/static/js/3.1414138f.chunk.js.map",
+    "static/js/2.08fc7ad7.chunk.js": "/blindtest_react/static/js/2.08fc7ad7.chunk.js",
+    "static/js/2.08fc7ad7.chunk.js.map": "/blindtest_react/static/js/2.08fc7ad7.chunk.js.map",
+    "static/js/3.d12cbefe.chunk.js": "/blindtest_react/static/js/3.d12cbefe.chunk.js",
+    "static/js/3.d12cbefe.chunk.js.map": "/blindtest_react/static/js/3.d12cbefe.chunk.js.map",
     "index.html": "/blindtest_react/index.html",
     "static/css/2.a95be28f.chunk.css.map": "/blindtest_react/static/css/2.a95be28f.chunk.css.map",
-    "static/css/main.85d5c127.chunk.css.map": "/blindtest_react/static/css/main.85d5c127.chunk.css.map",
-    "static/js/2.e3255232.chunk.js.LICENSE.txt": "/blindtest_react/static/js/2.e3255232.chunk.js.LICENSE.txt"
+    "static/css/main.632f1e8d.chunk.css.map": "/blindtest_react/static/css/main.632f1e8d.chunk.css.map",
+    "static/js/2.08fc7ad7.chunk.js.LICENSE.txt": "/blindtest_react/static/js/2.08fc7ad7.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.445132e4.js",
+    "static/js/runtime-main.e93bbc4e.js",
     "static/css/2.a95be28f.chunk.css",
-    "static/js/2.e3255232.chunk.js",
-    "static/css/main.85d5c127.chunk.css",
-    "static/js/main.e0b8f706.chunk.js"
+    "static/js/2.08fc7ad7.chunk.js",
+    "static/css/main.632f1e8d.chunk.css",
+    "static/js/main.8b08100a.chunk.js"
   ]
 }

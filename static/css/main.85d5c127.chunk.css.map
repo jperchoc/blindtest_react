@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack://src/components/topbar/Topbar.module.css","webpack://src/components/song/Song.module.css"],"names":[],"mappings":"AAAA,yBACI,aACJ,CCFA,iBACI,gBACJ","file":"main.85d5c127.chunk.css","sourcesContent":[".header h1 {\n    color: #fafafa;\n}",".img {\n    object-fit: cover\n}"]}
